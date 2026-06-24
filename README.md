@@ -1,16 +1,112 @@
-# React + Vite
+# 🎯 Target Audience Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive customer segmentation dashboard built using React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://target-audience-dashboard.netlify.app
 
-## React Compiler
+## 📖 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Target Audience Dashboard is a frontend application that visualizes different customer segments for a digital banking platform. The dashboard presents customer categories through dynamic cards and a clean, modern interface.
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive UI Design
+- Dynamic Customer Cards
+- Customer Segmentation Display
+- Horizontal Card Scrolling
+- Reusable React Components
+- Modern Tailwind CSS Styling
+
+## 🛠️ Tech Stack
+
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript
+- Remix Icons
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── Section1/
+│   ├── Section2/
+│   ├── Navbar.jsx
+│   ├── LeftContent.jsx
+│   ├── RightContent.jsx
+│   ├── RightCard.jsx
+│   └── RightCardContent.jsx
+├── App.jsx
+└── main.jsx
+```
+
+## 🎯 Customer Segments
+
+- Satisfied Customers
+- Underserved Customers
+- Underbanked Customers
+- Average Customers
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Riya15s/target-audience-dashboard.git
+```
+
+Move into the project folder:
+
+```bash
+cd target-audience-dashboard
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run locally:
+
+```bash
+npm run dev
+```
+
+Build project:
+
+```bash
+npm run build
+```
+
+## 📚 What I Learned
+
+- React Components
+- Props
+- Array Mapping
+- Dynamic Rendering
+- Component Reusability
+- Tailwind CSS
+- Git & GitHub
+- Netlify Deployment
+
+## 🔮 Future Enhancements
+
+- API Integration
+- Dashboard Analytics
+- Search & Filtering
+- Dark Mode
+- Interactive Charts
+
+## 👩‍💻 Author
+
+Riya Jagriti
+
+GitHub: https://github.com/Riya15s
+
+## 🌐 Live Website
+
+https://target-audience-dashboard.netlify.app
